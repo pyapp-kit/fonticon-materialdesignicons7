@@ -5,9 +5,9 @@ build-backend = "hatchling.build"
 
 # https://peps.python.org/pep-0621/
 [project]
-name = "fonticon-materialdesignicons6"
+name = "fonticon-materialdesignicons7"
 dynamic = ["version"]
-description = "Material Design Icons extension for superqt font icons"
+description = "Material Design Icons 7 extension for superqt font icons"
 readme = "README.md"
 requires-python = ">=3.7"
 license = { text = "MIT" }
@@ -28,10 +28,10 @@ classifiers = [
 dependencies = []
 
 [tool.hatch.version]
-path = "src/fonticon_mdi6/__init__.py"
+path = "src/fonticon_mdi7/__init__.py"
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/fonticon_mdi6"]
+packages = ["src/fonticon_mdi7"]
 
 # https://peps.python.org/pep-0621/#dependencies-optional-dependencies
 [project.optional-dependencies]
@@ -39,11 +39,11 @@ test = ["pytest", "pytest-qt", "pytest-cov", "superqt"]
 dev = ["black", "ipython", "mypy", "pdbpp", "rich", "ruff"]
 
 [project.urls]
-homepage = "https://github.com/pyapp-kit/fonticon-materialdesignicons6"
-repository = "https://github.com/pyapp-kit/fonticon-materialdesignicons6"
+homepage = "https://github.com/pyapp-kit/fonticon-materialdesignicons7"
+repository = "https://github.com/pyapp-kit/fonticon-materialdesignicons7"
 
 [project.entry-points."superqt.fonticon"]
-mdi6 = "fonticon_mdi6:MDI6"
+mdi7 = "fonticon_mdi7:MDI7"
 
 # https://github.com/charliermarsh/ruff
 [tool.ruff]
@@ -73,7 +73,7 @@ pretty = true
 [tool.pytest.ini_options]
 minversion = "6.0"
 testpaths = ["tests"]
-filterwarnings = ["error:::fonticon_mdi6"]
+filterwarnings = ["error:::fonticon_mdi7"]
 
 # https://github.com/mgedmin/check-manifest#configuration
 [tool.check-manifest]

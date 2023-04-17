@@ -7,8 +7,8 @@ from pathlib import Path
 from typing import Dict, List, Tuple, Union
 from zipfile import ZipFile
 
-VERSION = "6.9.96"
-PKG_DIR = Path(__file__).parent.parent / "src" / "fonticon_mdi6"
+VERSION = "7.2.96"
+PKG_DIR = Path(__file__).parent.parent / "src" / "fonticon_mdi7"
 URL = f"https://github.com/Templarian/MaterialDesign-Webfont/archive/refs/tags/v{VERSION}.zip"
 CLASSNAME = f"MDI{VERSION[0]}"
 
