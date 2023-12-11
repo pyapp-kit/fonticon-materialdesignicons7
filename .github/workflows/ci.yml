@@ -55,7 +55,7 @@ jobs:
           pip install ${{ matrix.backend }}
 
       - name: Test
-        uses: aganders3/headless-gui@v1.2
+        uses: aganders3/headless-gui@v2.1
         with:
           run: python -m pytest
 
