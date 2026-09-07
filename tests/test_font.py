@@ -1,6 +1,7 @@
-from fonticon_mdi7 import MDI7
 from qtpy.QtWidgets import QPushButton
 from superqt.fonticon import icon
+
+from fonticon_mdi7 import MDI7
 
 
 def test_MDI7(qtbot):
